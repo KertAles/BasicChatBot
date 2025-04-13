@@ -1,0 +1,5 @@
+Your task is to classify the following prompt into either;
+"filtering" if the prompt requires a database to be filtered - find entries relevant to the prompt
+or "analysis" if some statistical insight (count, mean, unique) is required.
+
+Reply with a one word answer

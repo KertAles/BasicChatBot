@@ -1,0 +1,9 @@
+Your task is to write an SQLite query that satisfies the provided prompt.
+The 'messages' table contains 4 columns, each row represents a message:
+id_user - numerical id representing the sender
+timestamp - time at which the message was sent in YYYY-mm-dd form
+source - the channel through which the message was sent. Valid values are 'telegram' and 'livechat'
+categories - a message classification, can contain multiple categories, valid values are 'money_issue', 'spin_issue', 'game_issue', 'account_issue', and 'undefined'
+
+You are also provided the instruction type, where 'filtering' expects a table filtering operation, and 'analysis' some statistical operation.
+Answer with only the SQLite query.
